@@ -1,10 +1,12 @@
 ## 📌 Descripción del proyecto
-Este proyecto analiza la rotación (churn) de clientes en una empresa de telecomunicaciones (Telecom X), con el objetivo de identificar los principales factores asociados a la cancelación del servicio y detectar oportunidades de mejora en retención e ingresos.
+Este proyecto analiza la rotación de clientes (*churn*) en **Telecom X**, con el objetivo de **explorar los datos y comprender qué factores están asociados al abandono del servicio**.
+
+El análisis se realizó como parte de un escenario simulado de trabajo, donde los datos fueron entregados en formato **JSON**, similar a la respuesta de una API, por lo que fue necesario realizar un proceso básico de **ETL** antes del análisis.
 
 ## 🎯 Objetivo
 - Analizar patrones de abandono de clientes.
-- Identificar variables clave asociadas al churn.
-- Generar insights accionables para el área de negocio.
+- Identificar variables que muestran relación con el churn.
+- Practicar un flujo de trabajo típico de análisis de datos (ETL + EDA).
 
 ## 🛠️ Tecnologías utilizadas
 - Python
@@ -14,16 +16,18 @@ Este proyecto analiza la rotación (churn) de clientes en una empresa de telecom
 - Jupyter Notebook
 
 ## 📊 Metodología
-1. Extracción de datos desde una API.
-2. Limpieza y transformación de datos (ETL).
+1. Carga de datos desde un archivo JSON.
+2. Limpieza y transformación básica de los datos.
 3. Análisis Exploratorio de Datos (EDA).
 4. Visualización de resultados.
-5. Conclusiones e insights.
+5. Resumen de hallazgos principales.
 
-## 📈 Resultados esperados
-- Identificación de segmentos con mayor probabilidad de abandono.
-- Variables críticas que influyen en la rotación.
-- Recomendaciones basadas en datos.
+## 📈 Resultados
+A partir del análisis exploratorio se observaron algunos patrones relevantes, como:
+- Mayor churn en clientes con contrato mensual.
+- Mayor tasa de abandono en clientes con menor antigüedad.
+- Relación entre cargos mensuales altos y churn.
 
-## 📂 Estructura del proyecto
+Estos resultados permiten entender mejor el comportamiento de los clientes y pueden servir como punto de partida para análisis más avanzados.
+
 
